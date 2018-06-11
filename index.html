@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="stylesheets/style.css">
-  <link rel="stylesheet" href="stylesheets/themes/theme.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <!-- <link rel="stylesheet" href="stylesheets/themes/theme.css"> -->
   <title>In time</title>
 </head>
 <body>
@@ -14,11 +14,14 @@
         <div class="container">
           <div class="logo">
             <a href="">
-              <img class="logo-image" src="" alt="">
+              <img class="logo-image" src="img/in-time.png" width="122px" height="34px" alt="">
             </a>
           </div>
           <div class="contacts">
-            <a href="tel:">066 12 577 654</a>
+            <a  class="contacts-link" href="tel:">
+              <div class="icon-tell"></div>
+              066 12 577 654
+            </a>
           </div>
         </div>
       </div>
@@ -27,40 +30,40 @@
           <div class="layout layout-navbar">
             <div class="layout-item">
               <ul class="navbar-nav">
-                <li class="navbar-link">
-                  <a href="#">Каталог товаров</a>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Каталог товаров</a>
                 </li>
-                <li class="navbar-link">
-                  <a href="#">Новинки</a>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Новинки</a>
                 </li>
-                <li class="navbar-link">
-                  <a href="#">Подарки</a>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Подарки</a>
                 </li>
-                <li class="navbar-link">
-                  <a href="#">Распродажа</a>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Распродажа</a>
                 </li>
-                <li class="navbar-link">
-                  <a href="#">Контакты</a>
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Контакты</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="layout-item toolbar-breadcrumb">
-        <div class="container">
-          <ul class="breadcrumb-nav">
-            <li class="breadcrumb-link">
-              <a href="#">Главная</a>
-            </li>
-            <li class="breadcrumb-link">
-              <a href="#">Следующая страница</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
   </header>
+  <div class="layout-item toolbar-breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-nav">
+        <li class="breadcrumb-item">
+          <a class="breadcrumb-link" href="#">Главная</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a class="breadcrumb-link" href="#">Следующая страница</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="layout layout-home">
     <div class="container">
       <main class="main-page layout-item">
@@ -142,7 +145,7 @@
           </div>
         </div>
       </main>
-      <aside class="layout-item">
+      <aside class="aside layout-item">
         <div class="aside-search">
           <input type="search" name="" value="">
         </div>
