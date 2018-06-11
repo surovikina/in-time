@@ -1,20 +1,20 @@
 :root {
-  --button-color: #ffffff;
-  --button-background: #24b5e1;
+  --button-color: #222;
+  --button-background: #f5f5f5;
   --button-font-family: inherit;
   --button-font-size: var(--global-font-size);
   --button-font-weight: normal;
-  --button-padding: 12px 16px;
+  --button-padding: 6px 14px;
   --button-height: var(--global-control-height);
 
-  --button-color-hover: #fff;
-  /* --button-background-hover: #ececec; */
+  --button-color-hover: #222;
+  --button-background-hover: #ececec;
 
-  /* --button-color-focus: #222; */
-  /* --button-background-focus: #ececec; */
+  --button-color-focus: #222;
+  --button-background-focus: #ececec;
 
-  /* --button-color-active: #222;
-  --button-background-active: #ececec; */
+  --button-color-active: #222;
+  --button-background-active: #ececec;
 }
 
 
@@ -28,7 +28,7 @@ input[type="submit"],
   -moz-appearance: none;
   border: none;
   user-select: none;
-  border-radius: 4px;
+  border-radius: 0;
   overflow: visible;
   font: inherit;
   text-transform: none;

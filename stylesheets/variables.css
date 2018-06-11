@@ -1,32 +1,32 @@
 :root {
-  --global-font-family:                            -apple-system, Tahoma, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --global-font-size:                              12px;
-  --global-line-height:                            1.5;
+  --global-font-family:                            -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-size:                              1rem;
+  --global-line-height:                            1.42;
 
-  --global-color:                                  #000000;
-  --global-muted-color:                            #969696;
-/* Закоментированные свойста не знаю где брать значения */
-  --global-link-color:                             #24b6e1;
-  --global-link-hover-color:                       #24b6e1;
+  --global-color:                                  #000;
+  --global-muted-color:                            #999;
 
-  --global-inverse-color:                          #ffffff;
+  --global-link-color:                             #1e87f0;
+  --global-link-hover-color:                       #0f6ecd;
 
-  --global-background:                             #ffffff;
+  --global-inverse-color:                          #fff;
 
-  /* --global-muted-background:                       #f8f8f8;
+  --global-background:                             #fff;
+
+  --global-muted-background:                       #f8f8f8;
   --global-primary-background:                     #1e87f0;
-  --global-secondary-background:                   #222; */
+  --global-secondary-background:                   #222;
 
-  --global-success-background:                     #ffffff;
-  --global-warning-background:                     red;
-  --global-danger-background:                      red;
+  --global-success-background:                     #32d296;
+  --global-warning-background:                     #faa05a;
+  --global-danger-background:                      #f0506e;
 
   --global-border-width:                           1px;
-  --global-border:                                 #c8c8c8;
+  --global-border:                                 #e5e5e5;
 
   --global-margin:                                 20px;
 
-  /* --global-gutter:                                 30px; */
+  --global-gutter:                                 30px;
 
-  --global-control-height:                         26px;
+  --global-control-height:                         40px;
 }

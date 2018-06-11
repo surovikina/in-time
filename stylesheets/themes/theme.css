@@ -1,0 +1,41 @@
+:root {
+  --global-font-family:                            -apple-system, Tahoma, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-size:                              12px;
+  --global-line-height:                            1.5;
+
+  --global-muted-color:                            #969696;
+  --global-link-color:                             #24b6e1;
+  --global-link-hover-color:                       #304ffe;
+
+  --global-background:                             #ffffff;
+  --global-border:                                 #c8c8c8;
+  --global-control-height:                         26px;
+
+  //for button
+  --button-color: #ffffff;
+  --button-background: #24b5e1;
+  --button-padding: 12px 16px;
+  --button-color-hover: #fff;
+  --button-background-hover: #0970ac;
+
+  --button-color-focus: #ffffff;
+  --button-background-focus: #24b5e1;
+
+  --button-color-active: #ffffff;
+  --button-background-active: #304ffe;
+
+  //for content
+  --base-h1-font-size:                             28px;
+  --base-h1-line-height:                           28px;
+  --base-h2-font-size:                             24px;
+  --base-h2-line-height:                           24px;
+  --base-h3-font-size:                             18px;   --base-h3-line-height:                           1.22;   --base-h4-font-size:                             12px;   --base-h4-line-height:                           1.83;
+
+  //for form
+  --form-padding:                                  10px 12px;
+  --form-background:                               #ffffff;
+  --form-line-height:                              2;
+
+  //for table
+
+}
